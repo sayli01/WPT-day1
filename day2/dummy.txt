@@ -1,0 +1,56 @@
+
+
+
+class Main {
+    method1(p1) { 
+    }
+
+    method2(p1, p2 ) {
+
+    }
+}
+
+<Object>
+    <Main>
+        <method1 key1="VALUE"></method1>
+        <method2 key1="value1" key2="value2"></method2>
+    </Main>
+<Object>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<method1></method1>
+
+h1(){}
+
+<h1></h1>
+
+
+
+
+
+
+
+class Main {
+
+
+    
+
+    <method1> 
+    </method1>
+}
+
+
