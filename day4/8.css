@@ -1,0 +1,16 @@
+.style1 {
+  background: green;
+  color: white;
+
+  font-size: 40px;
+  padding: 16px;
+  margin-bottom: 8px;
+}
+
+.kstyle {
+  font-family: cursive;
+}
+
+.dstyle {
+  color: yellow;
+}

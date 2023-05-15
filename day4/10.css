@@ -1,0 +1,23 @@
+h1 {
+  background: royalblue;
+  color: white;
+}
+
+#id1 {
+  background: green;
+}
+
+#id2 {
+  background: pink;
+}
+
+div {
+  color: tomato;
+}
+
+p {
+  color: gold;
+}
+
+.style1 {
+}

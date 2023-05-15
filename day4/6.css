@@ -1,0 +1,41 @@
+.style1 {
+  background: red;
+  height: 200px;
+  color: white;
+  font-size: 48px;
+  font-family: cursive;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.style2 {
+  background: url("https://picsum.photos/id/237/200/300");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+
+  color: white;
+  font-size: 48px;
+  font-family: cursive;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.style3 {
+  height: 300px;
+  background: url("1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  color: white;
+  font-size: 48px;
+  font-family: cursive;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
