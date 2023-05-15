@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--alignment--->
+    <h1 style="text-align: center";>
+      Welcome to Hawaiii</h1>
+    </h1>
+
+    <!--Move the test-->
+    <h1 
+        style="
+            background: green;
+
+            display: flex;
+            justify-content: center;
+            align-items: end;
+
+            height: 10vh;">
+    Welcome to Hawaiii</h1>
+    </h1>
+    
+    <!--adjacent elemnts-->
+    <div style="display: flex;">
+        <h1  style="background-color: red;">MUMBAI</h1>
+        <h1  style="background-color: rgb(76, 43, 132);">PUNE</h1>
+        <h1  style="background-color: rgb(121, 195, 68);">PUNE</h1>
+        <h1  style="background-color: rgb(121, 195, 68);">PUNE</h1>
+
+    </div>
+    
+    <div style="display: flex; justify-content: end;">
+        <h1  style="background-color: red;">MUMBAI</h1>
+        <h1  style="background-color: rgb(76, 43, 132);">PUNE</h1>
+        <h1  style="background-color: rgb(121, 195, 68);">PUNE</h1>
+    </div>
+
+    <!--justify content -main axis...align items -cross axis...height is for parent(total area)-->
+    <div 
+        style="
+            display: flex; 
+            justify-content: start;
+            align-items:end ;
+            background-color: turquoise;
+            height:200px;   <!--For parent-->
+    ">
+        <h1  style="background-color: red;">MUMBAI</h1>
+        <h1  style="background-color: rgb(76, 43, 132);">PUNE</h1>
+        <h1  style="background-color: rgb(121, 195, 68);">Kochi</h1>
+    </div>
+
+    <div 
+        style="
+            display: flex; 
+            flex-direction: column;
+            justify-content: center;
+
+           background:  rgb(62, 186, 102);
+            height:200px;   <!--For parent-->
+        ">
+        <div  style="background-color: red;">MUMBAI</div>
+        <div  style="background-color: rgb(76, 43, 132);">PUNE</div>
+        <div  style="background-color: rgb(75, 130, 35);">Kochi</div>
+    </div>
+
+<!--move children to any block on layout-->
+    <div 
+        style="
+                display: flex;     <!---bacame adjacent to main axis i.e x axis-->
+                flex-direction: column;
+                justify-content: center;
+
+                background-color:  rgb(161, 232, 184);
+                height:500px;   <!--For parent-->
+        ">
+        <div  style="background: red;">Child 1</div>
+        <div  style="background: rgb(76, 43, 132);">Child 2</div>
+        <div  style="backgroundr: rgb(75, 130, 35);">Child 3</div>
+    </div>
+
+  </body>
+</html>

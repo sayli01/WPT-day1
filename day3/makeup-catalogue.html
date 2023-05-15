@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Comic Book Reader</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f5f5f5;
+      }
+
+      header {
+        background-color: #333333;
+        padding: 20px;
+        text-align: center;
+        color: #ffffff;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 24px;
+      }
+
+      .container {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      .comic-page {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+        background-color: #ffffff;
+        border: 1px solid #dddddd;
+        border-radius: 5px;
+        overflow: hidden;
+      }
+
+      .comic-page img {
+        width: 100%;
+        height: auto;
+      }
+
+      .navigation {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+      }
+
+      .navigation button {
+        padding: 10px 20px;
+        background-color: #333333;
+        color: #ffffff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .navigation button:hover {
+        background-color: #555555;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Comic Book Reader</h1>
+    </header>
+
+    <div class="container">
+      <div class="comic-page">
+        <img src="page1.jpg" alt="Page 1" />
+      </div>
+
+      <div class="navigation">
+        <button id="prevPage">Previous</button>
+        <button id="nextPage">Next</button>
+      </div>
+    </div>
+
+    <script>
+      var currentPage = 1;
+      var totalPages = 5; // Replace with the total number of pages in your comic book
+
+      var prevButton = document.getElementById("prevPage");
+      var nextButton = document.getElementById("nextPage");
+
+      prevButton.addEventListener("click", function () {
+        if (currentPage > 1) {
+          currentPage--;
+          showPage(currentPage);
+        }
+      });
+
+      nextButton.addEventListener("click", function () {
+        if (currentPage < totalPages) {
+          currentPage++;
+          showPage(currentPage);
+        }
+      });
+
+      function showPage(pageNumber) {
+        var comicPage = document.querySelector(".comic-page img");
+        comicPage.src = "page" + pageNumber + ".jpg";
+      }
+    </script>
+  </body>
+</html>

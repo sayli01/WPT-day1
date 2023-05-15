@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Eg. 1 -->
+    <div style="display: flex">
+      <h1 style="background-color: red">MUMBAI</h1>
+      <h1 style="background: green">PUNE</h1>
+      <h1 style="background: blue">Kochi</h1>
+    </div>
+
+    <!-- Eg. 2 -->
+    <div style="display: flex; justify-content: center">
+      <h1 style="background-color: red">MUMBAI</h1>
+      <h1 style="background: green">PUNE</h1>
+      <h1 style="background: blue">Kochi</h1>
+    </div>
+
+    <!-- Eg. 3 -->
+    <!-- justify content : main axis-->
+    <!-- align items : cross axis -->
+    <div
+      style="
+        display: flex;
+        justify-content: center;
+        align-items: end;
+        background: tomato;
+        height: 200px;
+      "
+    >
+      <h1 style="background-color: red">MUMBAI</h1>
+      <h1 style="background: green">PUNE</h1>
+      <h1 style="background: blue">Kochi</h1>
+    </div>
+
+    <!-- Eg. 4-->
+    <div
+      style="
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background: lightblue;
+        height: 200px;
+      "
+    >
+      <div style="background-color: red">MUMBAI</div>
+      <div style="background: green">PUNE</div>
+      <div style="background: blue">Kochi</div>
+    </div>
+  </body>
+</html>
