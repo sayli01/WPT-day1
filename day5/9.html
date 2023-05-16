@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="9.js"></script>
+  </head>
+  <body>
+    <p style="font-size: 20px">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+      est laborum. <input id="add-to-cart" type="button" value="Add to Cart" />
+    </p>
+    <input
+      type="button"
+      value=""
+      onclick="applyColor('red')"
+      style="background: red; width: 50px; cursor: pointer"
+    />
+    <input
+      type="button"
+      value=""
+      onclick="applyColor('green')"
+      style="background: green; width: 50px; cursor: pointer"
+    />
+    <input
+      type="button"
+      value=""
+      onclick="applyColor('blue')"
+      style="background: blue; width: 50px; cursor: pointer"
+    />
+    <input
+      type="button"
+      value=""
+      onclick="applyColor('')"
+      style="background: black; width: 50px; cursor: pointer"
+    />
+
+    <input type="button" value="Increase Font" onclick="applyFont('25px')" />
+    <input type="button" value="Decrease Font" onclick="applyFont('18px')" />
+    <input type="button" value="Reset Font" onclick="applyFont('')" />
+    <br />
+    <br />
+    <input
+      type="button"
+      value="ENABLE | Available"
+      onclick="applyAvailability(true)"
+      style="cursor: pointer"
+    />
+    <input
+      type="button"
+      value="DISABLE | Soldout"
+      onclick="applyAvailability(false)"
+      style="cursor: pointer"
+    />
+
+    <br />
+    <br />
+
+    <input type="button" value="SHOW CART" onclick="showAndHide(true)" />
+    <input type="button" value="HIDE CART" onclick="showAndHide(false)" />
+  </body>
+</html>

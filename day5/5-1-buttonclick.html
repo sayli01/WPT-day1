@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="5-1-buttonclick.js"></script>
+  </head>
+  <body>
+    <div style="background: rgb(209, 237, 72)">
+      <h1 style="text-align: center">Shop Store</h1>
+      <h2>Product Description</h2>
+      <p style="font-size: 20px">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+        commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+        velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+        occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+        mollit anim id est laborum. <br />
+        <input id="add-to-cart" type="button" value="Add to Cart" />
+      </p>
+      <img src="top2.png" /> <br />
+      <br />
+      <input
+        type="button"
+        value="ENABLE | Available"
+        onclick="applyAvailability(true)"
+        style="cursor: pointer"
+      />
+      <input
+        type="button"
+        value="DISABLE | Soldout"
+        onclick="applyAvailability(false)"
+        style="cursor: pointer"
+      />
+
+      <br />
+      <br />
+
+      <input type="button" value="SHOW CART" onclick="showAndHide(true)" />
+      <input type="button" value="HIDE CART" onclick="showAndHide(false)" />
+    </div>
+  </body>
+</html>

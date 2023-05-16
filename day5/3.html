@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Inline Java Script</h1>
+    <input type="button" value="Error here" onclick="ANY_VALID_JS_SYNTAX" />
+    <input type="button" value="Alert Me" onclick="alert()" />
+    <input type="button" value="Console Me" onclick="console.log(1)" />
+
+    <h1>Interesting</h1>
+    <input
+      type="button"
+      value="Custom Fun"
+      onclick="function hello(){alert('i am also inline')};hello()"
+      
+    />
+    <!--onclick above can be used bt not convenient/>
+  </body>
+</html>

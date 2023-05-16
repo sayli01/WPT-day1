@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- Perform inline, internal and external scripting. -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Scripting Types</title>
+    <script src="5-4-scripting.js"></script>
+    <script>
+      function hello() {
+        alert("hello This is Internal scripting! I am Inline !");
+      }
+    </script>
+  </head>
+
+  <body>
+    <h1>Inline JavaScript!!</h1>
+    <input
+      type="button"
+      value="Click Me"
+      onclick="alert('I am Inline function')"
+    />
+
+    <h1>Internal JavaScript!!</h1>
+    <input type="button" value="Click Me" onclick="hello();" />
+
+    <h1>External JavaScript!!</h1>
+    <input
+      type="button"
+      value="Click Me"
+      onclick="sayHello('Hii This is External Scripting');"
+    />
+  </body>
+</html>
