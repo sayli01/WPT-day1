@@ -1,0 +1,27 @@
+#messageId1 {
+  height: 40px;
+  width: 90vw;
+  display: block;
+  margin-bottom: 8px;
+  padding: 8px;
+  border-radius: 16px;
+  font-size: 21px;
+  font-family: cursive;
+  font-weight: bold;
+  color: teal;
+  border: 5px solid teal;
+}
+
+.btn-style {
+  height: 36px;
+  width: 25vw;
+  border-radius: 16px;
+  background: teal;
+  color: white;
+}
+
+.message-style {
+  font-size: 24px;
+  font-family: cursive;
+  color: teal;
+}

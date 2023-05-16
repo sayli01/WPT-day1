@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- jQUERY -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.js"
+      integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="2.js"></script>
+  </head>
+  <body>
+    <h1 id="id1">Lorem ipsum dolor sit amet.</h1>
+    <input id="cartid" type="button" value="Add to Cart" />
+    <br />
+    <br />
+    <hr />
+
+    <input
+      type="button"
+      value="Change Color using Query Selector"
+      onclick="changeColor1()"
+    />
+    <br />
+    <br />
+    <input
+      type="button"
+      value="Change color using getElement By Id"
+      onclick="changeColor2()"
+    />
+
+    <br />
+    <br />
+    <input
+      type="button"
+      value="Change Color using jQuery"
+      onclick="changeColor3()"
+    />
+
+    <hr />
+    <input
+      type="button"
+      value="Enable  Cart using Document Object"
+      onclick="enableDisableCart1(true)"
+    />
+    <input
+      type="button"
+      value="Disable Cart using Document Object"
+      onclick="enableDisableCart1(false)"
+    />
+    <br />
+    <input
+      type="button"
+      value="Enable Cart using Query"
+      onclick="enableDisableCart2(true)"
+    />
+    <input
+      type="button"
+      value="Disable Cart using Query"
+      onclick="enableDisableCart2(false)"
+    />
+    <br />
+    <input
+      type="button"
+      value="Enable Cart using jQuery"
+      onclick="enableDisableCart3(true)"
+    />
+    <input
+      type="button"
+      value="Disable Cart using jQuery"
+      onclick="enableDisableCart3(false)"
+    />
+  </body>
+</html>
