@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    background-image: linear-gradient(to bottom, #2980b9, #6dd5fa);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    background-color: rgb(170 182 235 / 90%);;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    max-width: 600px;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+form input[type="text"] {
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    width: 80%;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333;
+}
+
+form input[type="button"] {
+    background-color: #16a085;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="button"]:hover {
+    background-color: #138d6e;
+}
+
+.icon img {
+    width: 100px;
+    height: 100px;
+}
+
+.temperature {
+    font-size: 72px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: rgb(156, 154, 154);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.description {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: rgb(107, 103, 103);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.details > div {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 10px;
+    flex: 1;
+    border-radius: 5px;
+    text-align: center;
+    min-height: 45px;
+    color: #333;
+}
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.icon img {
+    width: 100px;
+    height: 100px;
+}
+
+.temperature {
+    font-size: 72px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+
