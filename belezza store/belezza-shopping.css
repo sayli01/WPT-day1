@@ -1,0 +1,35 @@
+body{
+    background: linear-gradient(135deg,#A9F1DF,#FFBBBB);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+.style1 {
+    width: 350px;
+   margin: 5px;
+  }
+.colstyle {
+    background: black;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 32px;
+            color: white;
+            padding: 16px;
+}
+.img-style{
+    object-fit: cover; width: 100%
+}
+
+.btn1{
+    border-radius: 10px;
+    margin: 8px;
+    background:grey ;
+    cursor: pointer;
+    color: white ;
+    padding: 5px;
+}
+.btn1:hover{
+    background-color:#ff004f ;
+    color: black;
+}
